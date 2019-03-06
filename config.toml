@@ -1,0 +1,59 @@
+baseurl = "http://spike01.com/"
+languageCode = "en-us"
+theme = "hello-friend-ng"
+
+[params]
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
+
+  # Metadata mostly used in document's head
+  description = "spike01.com"
+  keywords = "metal, code"
+  images = [""]
+
+  # Directory name of your blog content (default is `content/posts`)
+  contentTypeName = "posts"
+  # Default theme "light" or "dark"
+  defaultTheme = "dark"
+
+[languages]
+  [languages.en]
+    title = "[spike01]"
+    subtitle = "No wings to speak of"
+    keywords = ""
+    copyright = ""
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "[spike01.com]"
+      logoHomeLink = "/"
+    # or
+    #
+    # path = "/img/your-example-logo.svg"
+    # alt = "Your example logo alt text"
+
+	# You can create a language based menu
+  # Commented until built
+  #  [languages.en.menu]
+  #    [[languages.en.menu.main]]
+  #      identifier = "about"
+  #      name = "About"
+  #      url = "/about"
+  #    [[languages.en.menu.main]]
+  #      identifier = "showcase"
+  #      name = "Showcase"
+  #      url = "/showcase"
+
+# And you can even create generic menu
+# Commented until built
+# [menu]
+#   [[menu.main]]
+#     identifier = "about"
+#     name       = "About"
+#     url        = "/about"
+#   [[menu.main]]
+#     identifier = "blog"
+#     name       = "Blog"
+#     url        = "/posts"
